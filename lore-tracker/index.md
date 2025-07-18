@@ -29,6 +29,7 @@ We collect:
 - Page visits (when you visit the homepage or app)
 - Whether you're a new user (first time using the app)
 - Daily active users (to count unique daily users)
+- Error information (when the app encounters unexpected errors, to help us fix bugs and improve stability)
 
 This analytics data is:
 - Anonymous and cannot be linked back to you personally
@@ -69,3 +70,4 @@ Should you wish to report a complaint, you can contact:
 ## Version History
 - January 23, 2025: Initial version
 - June 25, 2025: Updated to reflect analytics collection using GoatCounter
+- July 18, 2025: Updated to include error analytics collection (rolling out in upcoming app versions)
