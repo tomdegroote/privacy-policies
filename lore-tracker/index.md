@@ -4,7 +4,7 @@ title: LoreTracker Privacy Policy
 ---
 # LoreTracker Privacy Policy
 
-*Last updated: 25 June 2025*
+*Last updated: 27 May 2026*
 
 ## Disclaimer
 LoreTracker is an unofficial app created by fans, for fans.
@@ -21,31 +21,31 @@ This privacy policy explains what limited information we collect and how we prot
 The following data is stored locally on your device:
 - Your game scores
 - Your game settings (like "best of" preferences)
-- When you last used the app (to identify new vs returning users)
+- Basic usage of the app (e.g., when you last opened the app)
 
 ### Analytics Data We Collect
-We use GoatCounter (a privacy-focused analytics service) to understand how our app is used. This helps us improve the app. 
+We use our own privacy-focused analytics to see how the app is used. This helps us improve it.
 We collect:
-- Page visits (when you visit the homepage or app)
+- How often you open the app, and roughly how long you use it (in time ranges, never exact times)
 - Whether you're a new user (first time using the app)
-- Daily active users (to count unique daily users)
-- Error information (when the app encounters unexpected errors, to help us fix bugs and improve stability)
+- Daily and monthly active user counts
+- Your country (just a two-letter code like "BE", never your exact location)
+- Your platform (web, iOS, or Android) and app version
+- Which themes and features you use
+- Error information (to help us fix bugs)
 
 This analytics data is:
-- Anonymous and cannot be linked back to you personally
-- Stored by GoatCounter in the EU (not by us directly)
-- Automatically deleted after 2 years
-- Does not include any personal information, device details, or your game data
-- Used only to understand app usage patterns
+- Completely anonymous. We only store totals, like "412 people in Belgium opened the app today"
+- Not linked to you. There are no IDs and no exact timestamps
+- Stored by Cloudflare, our hosting provider
+- Kept as anonymous totals. It is only counts, so there is nothing to delete
+- Free of personal information, precise device details, or your game data
 
-No personal information or sensitive device information is collected. Your game scores and settings never leave your device.
+We never store your IP address. Your game scores and settings never leave your device.
 
 ### Your Analytics Choices
-You can opt out by:
-- **Web version (browser)**: Enable "Do Not Track" in your browser settings - GoatCounter automatically respects this setting
-- **Native app version**: Block internet access for the app in your device settings - the app works fully offline, analytics is the only feature requiring internet
-
-Both methods completely prevent any analytics data from being collected while keeping all core app functionality intact.
+- **Native app version**: Block internet access for the app in your device settings. The app works fully offline. Analytics is the only feature that needs internet, so this stops all analytics while everything else keeps working.
+- **Web version (browser)**: There is no separate opt-out. The analytics is fully anonymous, so there is no personal data to opt out of. To send nothing at all, use the native app with internet blocked.
 
 ## Data Storage
 Your game data (scores, settings, preferences) is stored locally on your device and remains under your control. 
@@ -71,3 +71,4 @@ Should you wish to report a complaint, you can contact:
 - January 23, 2025: Initial version
 - June 25, 2025: Updated to reflect analytics collection using GoatCounter
 - July 18, 2025: Updated to include error analytics collection (rolling out in upcoming app versions)
+- May 27, 2026: Switched from GoatCounter to our own fully anonymous analytics (counts only, stored on Cloudflare). Added country, platform, app version, and theme/feature usage. Removed the web "Do Not Track" opt-out, as the data is now fully anonymous.
